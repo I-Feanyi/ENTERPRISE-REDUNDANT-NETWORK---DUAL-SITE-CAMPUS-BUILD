@@ -36,7 +36,7 @@ Each branch runs three VLANs — Sales, IT, and Tech — with redundant uplinks 
 | Trunking | 802.1Q trunks carrying all VLANs between access and distribution layers |
 | Port Security | Restricts access ports to known MAC addresses to prevent unauthorized devices |
 | ACLs | Branch A's Sales VLAN (10) is explicitly denied access to the Tech VLAN, enforcing departmental segmentation |
-|SSH | ALL NETWORK DEVICES HAS SSH IMPLEMENTED |
+|SSH | all network devices has SSH configured|
 ## Addressing Scheme
 
 ### Branch A — 10.1.0.0/16
