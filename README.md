@@ -36,7 +36,7 @@ Each branch runs three VLANs — Sales, IT, and Tech — with redundant uplinks 
 | Trunking | 802.1Q trunks carrying all VLANs between access and distribution layers |
 | Port Security | Restricts access ports to known MAC addresses to prevent unauthorized devices |
 | ACLs | Branch A's Sales VLAN (10) is explicitly denied access to the Tech VLAN, enforcing departmental segmentation |
-
+|SSH | ALL NETWORK DEVICES HAS SSH IMPLEMENTED |
 ## Addressing Scheme
 
 ### Branch A — 10.1.0.0/16
@@ -126,6 +126,8 @@ Ping from a Sales VLAN host to a Tech VLAN host — timing out as expected.
 ![ping success Sales to IT](ACL%20PING2.png)
 Ping from a Sales VLAN host to an IT VLAN host — succeeding, showing the ACL is scoped correctly and not blocking everything.
 
+![Ssh verification](SSH.PNG)
+SSH INTO MLS-A
 
 ## What This Demonstrates
 
