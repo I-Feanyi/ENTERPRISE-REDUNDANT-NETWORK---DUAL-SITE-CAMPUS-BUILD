@@ -126,7 +126,7 @@ Ping from a Sales VLAN host to a Tech VLAN host — timing out as expected.
 ![ping success Sales to IT](ACL%20PING2.png)
 Ping from a Sales VLAN host to an IT VLAN host — succeeding, showing the ACL is scoped correctly and not blocking everything.
 
-![Ssh verification](SSH.PNG)
+![Ssh verification](SSH.png)
 SSH INTO MLS-A
 
 ## What This Demonstrates
